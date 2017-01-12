@@ -1,0 +1,22 @@
+{
+  "name": "photo-app",
+  "version": "1.0.0",
+  "description": "## To run locally ##",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyhliao/photoApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyhliao/photoApp/issues"
+  },
+  "homepage": "https://github.com/amyhliao/photoApp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
