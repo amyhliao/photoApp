@@ -11,12 +11,9 @@ app.get('/',function(req,res){
 });
 
 app.get('/login',function(req,res){
-  res.sendFile('/login.html');
+  // res.sendFile('/login.html');
+  res.send('im the login page!');
 });
-
-// app.get('/sitemap',function(req,res){
-//   res.sendFile('/sitemap.html');
-// });
 
 app.listen(3000);
 
