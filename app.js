@@ -10,12 +10,9 @@ app.get('/',function(req,res){
   //It will find and locate index.html from View or Scripts
 });
 
-app.get('/about',function(req,res){
-  res.sendFile('/about.html');
-});
-
-app.get('/sitemap',function(req,res){
-  res.sendFile('/sitemap.html');
+app.get('/login',function(req,res){
+  // res.sendFile('/login.html');
+  res.send('im the login page!');
 });
 
 app.listen(3000);
