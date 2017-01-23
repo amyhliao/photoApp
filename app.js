@@ -12,8 +12,14 @@ app.get('/',function(req,res){
 
 app.get('/login',function(req,res){
   // res.sendFile('/login.html');
-  res.send('im the login page!');
+  res.send('This is the login page!');
 });
+
+app.get('/logout',function(req,res){
+  // res.sendFile('/login.html');
+  res.send('This is the logout page!');
+});
+
 
 app.listen(3000);
 
