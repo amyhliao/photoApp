@@ -20,6 +20,15 @@ app.get('/logout',function(req,res){
   res.send('This is the logout page!');
 });
 
+app.get('/albums',function(req,res){
+  // res.sendFile('/login.html');
+  res.send('This is the albums page!');
+});
+
+app.get('/photos',function(req,res){
+  // res.sendFile('/login.html');
+  res.send('This is the photos page!');
+});
 
 app.listen(3000);
 
