@@ -35,6 +35,11 @@ app.get('/photos',function(req,res){
   res.send('This is the photos page!');
 });
 
+app.get('/photos/new',function(req,res){
+  // res.sendFile('/new_photos.html');
+  res.send('This is the create a new photos page!');
+});
+
 app.listen(3000);
 
 console.log("Running at Port 3000");
