@@ -39,6 +39,10 @@ app.get('/photos/new',function(req,res){
   // res.sendFile('/new_photos.html');
   res.send('This is the create a new photos page!');
 });
+app.get('/photos/:id',function(req,res){
+  // res.sendFile('/new_photos.html');
+  res.send('This is a specific photos path!');
+});
 
 app.listen(3000);
 
