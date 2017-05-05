@@ -30,6 +30,11 @@ app.get('/albums/new',function(req,res){
   res.send('This is the create a new albums page!');
 });
 
+app.get('/albums/:id',function(req,res){
+  // res.sendFile('/new_albums.html');
+  res.send('This is a specific albums page!');
+});
+
 app.get('/photos',function(req,res){
   // res.sendFile('/photos.html');
   res.send('This is the photos page!');
