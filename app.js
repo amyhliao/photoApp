@@ -31,7 +31,7 @@ app.get('/albums/new',function(req,res){
 });
 
 app.get('/albums/:id',function(req,res){
-  // res.sendFile('/albums_id.html');
+  // res.sendFile('/album_id.html');
   res.send('This is a specific albums page!');
 });
 
@@ -45,7 +45,7 @@ app.get('/photos/new',function(req,res){
   res.send('This is the create a new photos page!');
 });
 app.get('/photos/:id',function(req,res){
-  // res.sendFile('/photos_id.html');
+  // res.sendFile('/photo_id.html');
   res.send('This is a specific photos path!');
 });
 
