@@ -27,7 +27,7 @@ app.get('/albums', function(req, res) {
 
 app.get('/albums/new', function(req, res) {
   // res.sendFile('/new_albums.html');
-  res.send('This is the create a new albums page!');
+  res.send('This is create a new albums page!');
 });
 
 app.get('/albums/:id', function(req, res) {
@@ -42,7 +42,7 @@ app.get('/photos', function(req, res) {
 
 app.get('/photos/new', function(req, res) {
   // res.sendFile('/new_photos.html');
-  res.send('This is the create a new photos page!');
+  res.send('This is create a new photos page!');
 });
 app.get('/photos/:id', function(req, res) {
   // res.sendFile('/photo_id.html');
