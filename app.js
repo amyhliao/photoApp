@@ -20,11 +20,6 @@ app.get('/logout', function(req, res) {
   res.send('This is the logout page!');
 });
 
-// app.get('/home', function(req, res) {
-//   // res.sendFile('/home.html');
-//   res.send('This is the home page!');
-// });
-
 app.get('/albums', function(req, res) {
   // res.sendFile('/albums.html');
   res.send('This is the albums page!');
